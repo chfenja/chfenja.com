@@ -8,21 +8,20 @@ body {
   color: black;
   background-color: white;
 }
+
 h1, h2, h3 {
   font-family: sans-serif;
   font-weight: normal;
 }
 
-
-/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
   body {
-    color: white; /* Lighter text color for dark background */
-    background-color: black; /* Dark background */
+    color: white;
+    background-color: black;
   }
 
   h1, h2, h3 {
-    color: white; /* Ensuring headings are also visible against the dark background */
+    color: white;
   }
 
   a, a:visited {
