@@ -18,17 +18,17 @@ header {
   text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background-color: black;
-  }
+/* @media (prefers-color-scheme: dark) { */
+/*   body { */
+/*     color: white; */
+/*     background-color: black; */
+/*   } */
 
-  h1, h2, h3 {
-    color: white;
-  }
+/*   h1, h2, h3 { */
+/*     color: white; */
+/*   } */
 
-  a, a:visited {
-      color: green;
-  }
-}
+/*   a, a:visited { */
+/*       color: green; */
+/*   } */
+/* } */
