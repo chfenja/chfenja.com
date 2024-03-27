@@ -14,13 +14,33 @@ h1, h2, h3 {
   font-weight: normal;
 }
 
-.website-title {
-    text-decoration: none;
+.org-src-container pre.src {
+    background-color: #f3f3f3; /* Very light grey background */
+    border: 1px solid #ddd; /* Light grey border for a subtle distinction */
+    border-radius: 3px; /* Mildly rounded corners for a soft, modern appearance */
+    padding: 8px; /* Sufficient padding for space around the code */
+    font-family: monospace; /* Ensures consistent, readable typography */
+    font-size: 0.9em; /* Slightly smaller font to fit more text */
+    overflow: auto; /* Adds scrollbars for overflow content */
 }
 
-/* header { */
-/*   text-align: center; */
-/* } */
+/* Style for result blocks */
+pre.example {
+    background-color: #eff0f1; /* Slightly different background color for results */
+    border: 1px solid #d6d8da; /* Light border for results */
+    border-radius: 4px; /* Consistent rounded corners */
+    padding: 10px; /* Consistent padding */
+    font-family: monospace; /* Consistency in font */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.preamble {
+    text-align: center;
+}
+
+.preamble a {
+    text-decoration: none;
+}
 
 /* @media (prefers-color-scheme: dark) { */
 /*   body { */
