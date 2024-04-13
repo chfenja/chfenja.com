@@ -1,46 +1,59 @@
 body {
-  max-width: 40em;
-  margin: 0 auto;
-  padding: 5px;
-  font-family: Verdana, sans-serif;
-  font-size: 18px;
-  line-height: 1.6em;
-  color: black;
-  background-color: white;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
 }
 
 h1, h2, h3 {
-  font-family: sans-serif;
-  font-weight: normal;
+    line-height: 1.2;
 }
 
-.org-src-container pre.src {
-    background-color: #f3f3f3; /* Very light grey background */
-    border: 1px solid #ddd; /* Light grey border for a subtle distinction */
-    border-radius: 3px; /* Mildly rounded corners for a soft, modern appearance */
-    padding: 8px; /* Sufficient padding for space around the code */
-    font-family: monospace; /* Ensures consistent, readable typography */
-    font-size: 0.9em; /* Slightly smaller font to fit more text */
-    overflow: auto; /* Adds scrollbars for overflow content */
-}
+/* body { */
+/*   max-width: 40em; */
+/*   margin: 0 auto; */
+/*   padding: 5px; */
+/*   font-family: Verdana, sans-serif; */
+/*   font-size: 18px; */
+/*   line-height: 1.6em; */
+/*   color: black; */
+/*   background-color: white; */
+/* } */
 
-/* Style for result blocks */
-pre.example {
-    background-color: #eff0f1; /* Slightly different background color for results */
-    border: 1px solid #d6d8da; /* Light border for results */
-    border-radius: 4px; /* Consistent rounded corners */
-    padding: 10px; /* Consistent padding */
-    font-family: monospace; /* Consistency in font */
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
-}
+/* h1, h2, h3 { */
+/*   font-family: sans-serif; */
+/*   font-weight: normal; */
+/* } */
 
-.preamble {
-    text-align: center;
-}
+/* .org-src-container pre.src { */
+/*     background-color: #f3f3f3; /\* Very light grey background *\/ */
+/*     border: 1px solid #ddd; /\* Light grey border for a subtle distinction *\/ */
+/*     border-radius: 3px; /\* Mildly rounded corners for a soft, modern appearance *\/ */
+/*     padding: 8px; /\* Sufficient padding for space around the code *\/ */
+/*     font-family: monospace; /\* Ensures consistent, readable typography *\/ */
+/*     font-size: 0.9em; /\* Slightly smaller font to fit more text *\/ */
+/*     overflow: auto; /\* Adds scrollbars for overflow content *\/ */
+/* } */
 
-.preamble a {
-    text-decoration: none;
-}
+/* /\* Style for result blocks *\/ */
+/* pre.example { */
+/*     background-color: #eff0f1; /\* Slightly different background color for results *\/ */
+/*     border: 1px solid #d6d8da; /\* Light border for results *\/ */
+/*     border-radius: 4px; /\* Consistent rounded corners *\/ */
+/*     padding: 10px; /\* Consistent padding *\/ */
+/*     font-family: monospace; /\* Consistency in font *\/ */
+/*     overflow-x: auto; /\* Allow horizontal scrolling if needed *\/ */
+/* } */
+
+/* .preamble { */
+/*     text-align: center; */
+/* } */
+
+/* .preamble a { */
+/*     text-decoration: none; */
+/* } */
 
 /* @media (prefers-color-scheme: dark) { */
 /*   body { */
